@@ -1,12 +1,12 @@
-{ 
+{
   "name": "mallSystem",
-  "version":"1.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "xingpc",
   "license": "MIT",
-  "scripts" : {
-    "dev" : "node_modules/.bin/webpack-dev-server",
-    "dist" : "node_modules/.bin/webpack -p"
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "dist": "node_modules/.bin/webpack -p"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
@@ -27,6 +27,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2"
   }
 }
