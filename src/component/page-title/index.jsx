@@ -1,3 +1,5 @@
+//页面标题
+
 import React from 'react';
 
 class PageTitle extends React.Component{
@@ -5,7 +7,7 @@ class PageTitle extends React.Component{
 		super(props);
 	}
 	componentWillMount(){
-		document.title = this.props.title + '-电商后台系统';
+		document.title = this.props.title + '-电商后台管理系统';
 	}
 	render(){
 		return(
