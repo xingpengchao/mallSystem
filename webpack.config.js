@@ -9,7 +9,13 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath:'/dist/',
 		filename: 'js/app.js'
-  },
+    },
+    resolve:{
+    	alias:{
+    		page      : path.resolve(__dirname, 'src/page'),
+    		component : path.resolve(__dirname, 'src/component')
+    	}
+    },
 	module: {
 		rules: [
 		    //react(jsx)文件语法的处理 
@@ -81,6 +87,9 @@ module.exports = {
         })
    ],
    devServer: {
-        port:3200
-   }
+        port:3200,
+        historyApiFallback:{
+        	index:'/dist/index.html'
+        }
+    } 
 };
