@@ -7,6 +7,7 @@ import SideNav from 'component/side-nav/index.jsx';
 
 
 import './theme.css';
+import './index.css';
 
 class Layout extends React.Component{
 	constructor(props){

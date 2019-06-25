@@ -60,11 +60,6 @@ class UserList extends React.Component{
 		return(
 			<div id="page-wrapper">
 				<PageTitle title="用户列表"/>
-					<th>ID</th>
-					<th>用户名</th>
-					<th>邮箱</th>
-					<th>电话</th>
-					<th>注册时间</th>
 				<TableList tableHeads={['ID','用户名','邮箱','电话','注册时间']}>
 					{listBody}
 				</TableList>

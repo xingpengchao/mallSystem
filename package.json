@@ -25,9 +25,11 @@
     "webpack-dev-server": "2.9.7"
   },
   "dependencies": {
+    "prop-types": "15.6.0",
     "rc-pagination": "1.20.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "react-fileupload": "2.4.0",
     "react-router-dom": "4.2.2"
   }
 }
