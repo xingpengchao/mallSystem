@@ -25,7 +25,7 @@ class User{
 			}
 		}
 		//判断密码为空
-		if(typeof loginInfo.username !== 'string' || loginInfo.username.length === 0){
+		if(typeof loginInfo.password !== 'string' || loginInfo.password.length === 0){
 			return {
 				status : false,
 				msg:'密码不能为空'
@@ -44,7 +44,7 @@ class User{
 	    		url : '/user/logout.do'
     	});
 	}
-    
+ 
     //获取用户列表 
 	getUserList(pageNum){
 		return _mm.request({
