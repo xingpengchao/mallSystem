@@ -7,6 +7,7 @@ import Product              from 'service/product-service.jsx';
 import CategorySelector     from './category-selector.jsx';
 import FileUpLoader         from 'util/file-uploader/index.jsx';
 import RichEditor           from 'util/rich-editor/index.jsx';
+import ProductList          from './index.jsx';
 
 import './save.scss';
 
@@ -50,7 +51,7 @@ class ProductSave extends React.Component{
 				this.setState(res);
 			},(errMsg) =>{
 				_mm.errTips(errMsg);
-			} );
+			});
 		}
 	}
 
@@ -96,7 +97,6 @@ class ProductSave extends React.Component{
     
     //富文本编辑器的变化
     onDetailValueChange(value){
-    	console.log(value);
 		this.setState({
 			detail : value
 		});
@@ -118,7 +118,6 @@ class ProductSave extends React.Component{
     		stock      : parseInt(this.state.stock),
     		status     : this.state.status
     	};
-    	// console.log(product);
     	let productCheckResult = _product.checkProduct(product);
     	if(this.state.id){
     		product.id = this.state.id;
@@ -140,7 +139,7 @@ class ProductSave extends React.Component{
 	render(){
 		return (
     		<div id="page-wrapper">
-				<PageTitle title="添加商品"/>
+				<PageTitle title={this.state.id ? '编辑商品' : '添加商品'}/>
 				<div className="form-horizontal">
 					<div className="form-group">
 						<label className="col-md-2 control-label">商品名称</label>
