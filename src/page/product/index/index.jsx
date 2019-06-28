@@ -96,7 +96,7 @@ class ProductList extends React.Component{
 		    {name : '商品信息',  width : '50%'},
 			{name : '价格',      width : '10%'},
 			{name : '状态',      width : '15%'},
-			{name : '操作',      width : '15%'},
+			{name : '操作',      width : '15%'}
 		];
          
 		return(
