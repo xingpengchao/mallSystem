@@ -5,7 +5,7 @@ import React      from 'react';
 import { Link }   from 'react-router-dom';
 import PageTitle  from 'component/page-title/index.jsx';
 
-import MUtil from 'util/mm.jsx';
+import MUtil      from 'util/mm.jsx';
 import Statistic  from 'service/statistic-service.jsx';
 
 const _mm        = new MUtil();

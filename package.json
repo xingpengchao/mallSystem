@@ -1,12 +1,12 @@
 {
   "name": "mallSystem",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.jsx",
   "author": "xingpc",
   "license": "MIT",
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server",
-    "dist": "node_modules/.bin/webpack -p"
+    "dev"     : "node_modules/.bin/webpack-dev-server",
+    "dist"    : "node_modules/.bin/webpack -p"
   },
   "devDependencies": {
     "babel-core": "6.26.0",

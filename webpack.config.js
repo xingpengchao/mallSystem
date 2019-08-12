@@ -3,6 +3,7 @@ const webpack           = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+
 module.exports = {
 	entry: './src/app.jsx',
 	output: {
@@ -82,7 +83,7 @@ module.exports = {
         }),
         //独立css文件
         new ExtractTextPlugin("css/[name].css"),
-        //提出公共模块 
+        //提取公共模块 
         new webpack.optimize.CommonsChunkPlugin({
         	name : 'common',
         	filename : 'js/base.js'
@@ -90,7 +91,7 @@ module.exports = {
    ],
    devServer: {
         port:3200,
-        historyApiFallback:{
+        historyApiFallback:{		
         	index:'/dist/index.html'
         },
         proxy : {
@@ -105,3 +106,4 @@ module.exports = {
         }
     } 
 };
+

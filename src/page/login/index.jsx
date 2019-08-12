@@ -20,7 +20,7 @@ class Login extends React.Component{
 	}
 	
 	componentWillMount(){
-		document.title = '登陆 - MALL ADMIN';
+		document.title = '登陆 - 电商后台管理系统';
 	}
     
     //当用户名发生改变时
