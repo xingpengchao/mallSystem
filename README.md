@@ -3,8 +3,11 @@
 运行项目步骤：
 
 1.npm install yarn -g  (安装yarn)
-3. yarn run dist (项目打包) 
+
+3. yarn run dist (项目打包)
+
 4. yarn run dev  (启动项目)
+
 5. 本地浏览器打开 localhost:3200
 
 注释 ：为什么要把上传node_modules，不用npm install ?
