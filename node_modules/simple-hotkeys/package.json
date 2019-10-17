@@ -1,0 +1,33 @@
+{
+  "name": "simple-hotkeys",
+  "description": "Simple hotkeys for tower.im",
+  "version": "1.0.3",
+  "homepage": "https://github.com/ichord/simple-hotkeys",
+  "author": {
+    "name": "ichord",
+    "email": "chord.luo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ichord/simple-hotkeys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ichord/simple-hotkeys/issues"
+  },
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "main": "lib/hotkeys.js",
+  "dependencies": {
+    "jquery": "2.x",
+    "simple-module": "~2.0.5"
+  },
+  "devDependencies": {
+    "grunt": "0.x",
+    "grunt-contrib-watch": "0.x",
+    "grunt-contrib-coffee": "0.x",
+    "grunt-contrib-jasmine": "0.x",
+    "grunt-umd": "2.x"
+  },
+  "keywords": ["hotkeys"]
+}
