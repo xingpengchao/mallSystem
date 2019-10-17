@@ -1,7 +1,7 @@
 # mallSystem
 运行项目步骤：
 
-1.npm install yarn -g  (安装yarn)
+1. npm install yarn -g  (安装yarn)
 
 2. yarn run dist (项目打包)
 
