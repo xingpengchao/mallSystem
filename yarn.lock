@@ -2001,6 +2001,11 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
+dompurify@^1.0.8:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-1.0.11.tgz#fe0f4a40d147f7cebbe31a50a1357539cfc1eb4d"
+  integrity sha512-XywCTXZtc/qCX3iprD1pIklRVk/uhl8BKpkTxr+ZyMVUzSUg7wkQXRBp/euJ5J5moa1QvfpvaPQVP71z1O59dQ==
+
 domutils@1.5.1:
   version "1.5.1"
   resolved "https://registry.npm.taobao.org/domutils/download/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
@@ -5681,11 +5686,12 @@ signal-exit@^3.0.0:
   resolved "https://registry.npm.taobao.org/signal-exit/download/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
-simditor@^2.3.6:
-  version "2.3.6"
-  resolved "https://registry.npm.taobao.org/simditor/download/simditor-2.3.6.tgz#ba71edc3161fc438466c336c9c10052743403947"
-  integrity sha1-unHtwxYfxDhGbDNsnBAFJ0NAOUc=
+simditor@^2.3.22:
+  version "2.3.22"
+  resolved "https://registry.yarnpkg.com/simditor/-/simditor-2.3.22.tgz#952b3d697fb334a363c02613e78774e9d1257189"
+  integrity sha512-qFbbo6jREbIICxncsJTaAFNOwvMDwDCSqobZnQPDNy2QyRXaHLIZyoDmcBMJQJWoN17WksQjBr774TQXFeFgBA==
   dependencies:
+    dompurify "^1.0.8"
     jquery "~2.1.4"
     simple-hotkeys "~1.0.3"
     simple-module "~2.0.6"
