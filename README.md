@@ -1,4 +1,7 @@
 # mallSystem
+
+<<<<<<< HEAD
+
 运行项目步骤：
 1. npm install
 
@@ -8,12 +11,10 @@
 
 4. yarn run dev  (启动项目)
 
-<<<<<<< HEAD
-4. 本地浏览器打开 localhost:3200
-=======
 5. 本地浏览器打开 localhost:3200
->>>>>>> bc28a925dc0f63d3288dad41deb96b971921fb01
 
 账号：admin
 
 密码：admin
+
+Footer >>>>>>>
