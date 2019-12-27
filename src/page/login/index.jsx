@@ -32,6 +32,7 @@ class Login extends React.Component{
 		});
 	}
     
+    // 按下Enter键登陆
     onInputKeyUp(e){
     	if(e.keyCode===13){
     		this.onSubmit();

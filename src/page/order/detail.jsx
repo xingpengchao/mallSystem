@@ -1,4 +1,4 @@
-//添加商品组件
+//订单组件
 
 import React                from 'react';
 import PageTitle            from 'component/page-title/index.jsx';

@@ -1,6 +1,6 @@
 //品类列表页面 
-import React      from 'react';
 
+import React      from 'react';
 import { Link }   from 'react-router-dom';
 import PageTitle  from 'component/page-title/index.jsx';
 import TableList  from 'util/table-list/index.jsx';

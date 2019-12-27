@@ -91,10 +91,12 @@ module.exports = {
    ],
    devServer: {
         port:3200,
+        progress: true, // 显示打包速度 
+        inline: true, // 开启页面自动刷新
         historyApiFallback:{		
         	index:'/dist/index.html'
         },
-        proxy : {
+        proxy : {   // wepack-dev-server设置反向代理解决跨域问题
 			'/manage' :{
 				target: 'http://admintest.happymmall.com',
 				changeOrigin : true

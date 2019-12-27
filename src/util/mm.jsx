@@ -16,6 +16,7 @@ class MUtil{
 						//没有登陆状态，强制登陆
 					else if(10 === res.status){
 						this.doLogin();
+						// typeof reject === 'function' && reject(res.msg);
 					}else{
 						typeof reject === 'function' && reject(res.msg || res.data);
 					}
