@@ -2,7 +2,7 @@
 
 <<<<<<< HEAD
 
-运行项目步骤：
+# 运行项目步骤：
 1. npm install
 
 2. npm install yarn -g  (安装yarn)
@@ -16,6 +16,8 @@
 账号：admin
 
 密码：admin
+
+# 2019年的最后一天，我还在敲代码❄❄❄
 
 END >>>>>>>   
 
