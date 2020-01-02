@@ -3,21 +3,21 @@
 <<<<<<< HEAD
 
 # 运行项目步骤：
-1. npm install
 
-2. npm install yarn -g  (安装yarn)
+  1. npm install
 
-3. yarn run dist (项目打包)
+  2. npm install yarn -g  (安装yarn)
 
-4. yarn run dev  (启动项目)
+  3. yarn run dist (项目打包)
 
-5. 本地浏览器打开 localhost:3200
+  4. yarn run dev  (启动项目)
 
-账号：admin
+  5. 本地浏览器打开 localhost:3200
 
-密码：admin
+ 账号：admin
 
-# 2019年的最后一天，我还在敲代码❄❄❄
+ 密码：admin
+
 
 END >>>>>>>   
 
