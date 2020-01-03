@@ -1,6 +1,6 @@
 # mallSystem
 
-<<<<<<< HEAD
+## <<<<<<< HEAD
 
 # 运行项目步骤：
 
@@ -14,10 +14,10 @@
 
   5. 本地浏览器打开 localhost:3200
 
- 账号：admin
+  账号：admin
 
- 密码：admin
+  密码：admin
 
 
-END >>>>>>>   
+## END >>>>>>>   
 
