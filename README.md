@@ -12,7 +12,7 @@
 
   4. yarn dev  (启动项目)
 
-  5. 本地浏览器打开 localhost:3200
+  5. 浏览器打开 localhost:3200
 
   账号：admin
 
