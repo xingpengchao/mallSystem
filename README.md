@@ -1,6 +1,5 @@
 ## 大学生超市后台管理系统
 
-<<<<<<< HEAD
 ## 技术栈
 
 > #### React + React-Router + webpack + ES6 + BootStrap + Sass
